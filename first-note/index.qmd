@@ -1,0 +1,39 @@
+---
+title: "Research note template: Monte Carlo pricing"
+date: 2026-10-11
+draft: true
+author: "Oumaima Mamoun"
+categories: [Monte Carlo, Derivatives, Python]
+---
+
+> **Draft only.** Replace this template with independently verified research before publication.
+
+## Question
+
+What is the convergence behavior of a Monte Carlo estimator for a European call?
+
+## Model
+
+Under a Black–Scholes model,
+
+$$dS_t = r S_t\,dt + \sigma S_t\,dW_t.$$
+
+The discounted payoff estimator is
+
+$$\widehat C_N = e^{-rT}\frac{1}{N}\sum_{i=1}^N (S_T^{(i)}-K)^+.$$
+
+## Implementation
+
+```python
+import numpy as np
+rng = np.random.default_rng(42)
+N, S0, K, r, sigma, T = 100_000, 100., 100., 0.03, 0.2, 1.
+z = rng.standard_normal(N)
+st = S0 * np.exp((r - sigma**2 / 2) * T + sigma * np.sqrt(T) * z)
+price = np.exp(-r*T) * np.maximum(st-K, 0).mean()
+print(price)
+```
+
+## Results and limitations
+
+Add convergence experiments, confidence intervals, independent validation, and references before publishing.

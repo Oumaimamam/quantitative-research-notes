@@ -3,7 +3,7 @@ project:
   output-dir: _site
 website:
   title: "Quantitative Research Notes"
-  site-url: "https://USERNAME.github.io/REPOSITORY"
+  site-url: "https://Oumaimamam.github.io/quantitative-research-notes"
   navbar:
     left:
       - href: index.qmd
@@ -14,7 +14,7 @@ website:
         text: About
     right:
       - icon: github
-        href: https://github.com/USERNAME
+        href: https://github.com/Oumaimamam
       - icon: linkedin
         href: https://www.linkedin.com/in/oumaima-mamoun/
   page-footer: "Independent research notes. Views are my own."
