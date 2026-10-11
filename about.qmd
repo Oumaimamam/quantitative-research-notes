@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+## Oumaima Mamoun
+
+Quantitative analyst with interests in derivatives pricing, stochastic modelling, numerical methods, and quantitative computing.
+
+This site collects independently developed technical research notes and reproducible experiments. All views are personal; no employer or client information is shared.
+
+[LinkedIn](https://www.linkedin.com/in/oumaima-mamoun/)

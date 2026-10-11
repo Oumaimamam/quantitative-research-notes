@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+website:
+  title: "Quantitative Research Notes"
+  site-url: "https://USERNAME.github.io/REPOSITORY"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts.qmd
+        text: Research Notes
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/USERNAME
+      - icon: linkedin
+        href: https://www.linkedin.com/in/oumaima-mamoun/
+  page-footer: "Independent research notes. Views are my own."
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    math: mathjax
+execute:
+  freeze: auto

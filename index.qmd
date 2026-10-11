@@ -1,0 +1,14 @@
+---
+title: "Quantitative Research Notes"
+page-layout: full
+---
+
+# Quantitative Research Notes
+
+**By Oumaima Mamoun**
+
+Independent notes on derivatives pricing, stochastic models, numerical methods, and quantitative computing.
+
+[Research notes](posts.qmd) · [About the author](about.qmd)
+
+*Articles will appear here once completed and independently verified.*
