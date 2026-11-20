@@ -11,4 +11,3 @@ Independent notes on derivatives pricing, stochastic models, numerical methods, 
 
 [Research notes](posts.qmd) · [About the author](about.qmd)
 
-*Articles will appear here once completed and independently verified.*
