@@ -1,11 +1,12 @@
 ---
 title: "About"
+page-layout: article
 ---
 
-## Oumaima Mamoun
+Oumaima Mamoun is a quantitative analyst at EY Advisory in Paris with an engineering background in financial engineering and an MSc in Quantitative Finance.
 
-Quantitative analyst with interests in derivatives pricing, stochastic modelling, numerical methods, and quantitative computing.
+Her interests include derivatives pricing, stochastic modelling, numerical methods and quantitative software development.
 
-This site collects independently developed technical research notes and reproducible experiments. All views are personal; no employer or client information is shared.
+This publication collects independently developed research notes and reproducible experiments. It does not publish employer or client material. Views are her own.
 
-[LinkedIn](https://www.linkedin.com/in/oumaima-mamoun/)
+[GitHub](https://github.com/Oumaimamam/) · [LinkedIn](https://www.linkedin.com/in/oumaima-mamoun/)

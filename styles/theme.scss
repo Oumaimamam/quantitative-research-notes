@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+$headings-font-family: Georgia, "Times New Roman", serif;
+$body-color: #242424;
+$body-bg: #fdfdfb;
+$link-color: #9a3d25;
+$border-color: #deded8;
+$navbar-bg: #fdfdfb;
+$navbar-fg: #242424;
+$code-color: #692e20;
+
+/*-- scss:rules --*/
+:root {
+  --qrn-accent: #9a3d25;
+  --qrn-text: #242424;
+  --qrn-muted: #686860;
+  --qrn-border: #deded8;
+  --qrn-paper: #fdfdfb;
+  --qrn-content-width: 760px;
+  --qrn-list-width: 1040px;
+}

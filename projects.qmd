@@ -1,0 +1,12 @@
+---
+title: "Projects"
+page-layout: article
+---
+
+## Open-source code
+
+Selected implementations and technical experiments are published on GitHub.
+
+- [GitHub profile](https://github.com/Oumaimamam)
+
+Additional project descriptions will be added when independent implementations and public source material are available.

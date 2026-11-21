@@ -1,29 +1,37 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "first-note/**/*.qmd"
+    - "!first-note/vppa.qmd"
 website:
   title: "Quantitative Research Notes"
-  site-url: "https://Oumaimamam.github.io/quantitative-research-notes"
+  site-url: "https://oumaimamam.github.io/quantitative-research-notes/"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: posts.qmd
         text: Research Notes
+      - href: projects.qmd
+        text: Projects
       - href: about.qmd
         text: About
     right:
       - icon: github
         href: https://github.com/Oumaimamam
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/oumaima-mamoun/
+        aria-label: LinkedIn
   page-footer: "Independent research notes. Views are my own."
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - styles/theme.scss
+    css: styles/components.css
     toc: true
     code-copy: true
-    math: mathjax
+    math: katex
 execute:
   freeze: auto

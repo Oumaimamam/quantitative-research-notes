@@ -1,13 +1,24 @@
 ---
 title: "Quantitative Research Notes"
-page-layout: full
+description: "Independent research notes on derivatives pricing, stochastic models, numerical methods and quantitative computing."
+page-layout: article
+listing:
+  - id: recent-notes
+    contents: posts
+    sort: "date desc"
+    type: default
+    fields: [title, date, categories, description]
+    max-items: 5
 ---
 
-# Quantitative Research Notes
+Independent research notes on derivatives pricing, stochastic modelling, numerical methods and quantitative computing.
 
-**By Oumaima Mamoun**
+## Recent research notes
 
-Independent notes on derivatives pricing, stochastic models, numerical methods, and quantitative computing.
+::: {#recent-notes}
+:::
 
-[Research notes](posts.qmd) · [About the author](about.qmd)
+No public research notes are currently listed.
+
+[Browse all research notes](posts.qmd) · [Projects](projects.qmd)
 

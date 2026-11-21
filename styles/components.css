@@ -1,0 +1,364 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--qrn-paper);
+  color: var(--qrn-text);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.68;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  min-height: 64px;
+  border-bottom: 1px solid var(--qrn-border);
+  background: rgba(253, 253, 251, 0.98);
+  padding-block: 0.35rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--qrn-text) !important;
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.12rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.nav-link {
+  border-bottom: 1px solid transparent;
+  font-size: 0.92rem;
+  margin-inline: 0.18rem;
+  padding-inline: 0.5rem !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  border-bottom-color: var(--qrn-accent);
+  color: var(--qrn-accent) !important;
+}
+
+.navbar-toggler {
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(154, 61, 37, 0.35);
+  outline-offset: 3px;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: #722d1d;
+}
+
+.container,
+.container-fluid {
+  max-width: 1120px;
+}
+
+main.content {
+  max-width: var(--qrn-content-width);
+  margin-inline: auto;
+  padding-top: 1.8rem;
+  padding-bottom: 5rem;
+}
+
+main.content h1,
+main.content h2,
+main.content h3,
+main.content h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #202020;
+}
+
+main.content h1 {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  margin-top: 0.35rem;
+  margin-bottom: 1.35rem;
+  max-width: 850px;
+}
+
+main.content h2 {
+  border-bottom: 1px solid var(--qrn-border);
+  font-size: 1.55rem;
+  line-height: 1.25;
+  letter-spacing: -0.018em;
+  margin-top: 3rem;
+  padding-bottom: 0.55rem;
+}
+
+.quarto-title-block {
+  max-width: var(--qrn-list-width);
+  margin-inline: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 1.15rem;
+}
+
+.quarto-title .title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.35rem, 5vw, 3.8rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.quarto-title-meta {
+  color: var(--qrn-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+}
+
+.description,
+#title-block-header .description {
+  color: var(--qrn-muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.18rem;
+  line-height: 1.5;
+  max-width: 720px;
+}
+
+.listing-default {
+  border-top: 1px solid var(--qrn-border);
+  max-width: var(--qrn-list-width);
+  margin-top: 1.25rem;
+}
+
+.listing-default .quarto-listing-container-default {
+  max-width: var(--qrn-list-width);
+}
+
+.listing-default .list {
+  display: block;
+}
+
+.listing-default .quarto-post {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 2.5rem;
+  align-items: start;
+  border-bottom: 1px solid var(--qrn-border);
+  margin: 0;
+  padding: 1.65rem 0 1.75rem;
+}
+
+.listing-default .quarto-post .metadata {
+  grid-column: 1;
+  color: var(--qrn-muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.025em;
+  margin: 0 0 0.35rem;
+  order: 1;
+  text-transform: uppercase;
+}
+
+.listing-default .body {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  order: 2;
+}
+
+.listing-default .thumbnail {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  max-width: 180px;
+  justify-self: end;
+}
+
+.listing-default .listing-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.018em;
+  margin: 0 0 0.45rem;
+}
+
+.listing-default .listing-description,
+.listing-default .description {
+  color: var(--qrn-muted);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.listing-default .listing-categories {
+  grid-column: 1;
+  margin-top: 0.65rem;
+}
+
+.listing-category {
+  background: transparent;
+  border: 0;
+  color: var(--qrn-accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  padding: 0 0.55rem 0 0;
+  text-transform: uppercase;
+}
+
+pre.sourceCode,
+div.sourceCode,
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+pre.sourceCode,
+div.sourceCode {
+  border: 1px solid var(--qrn-border);
+  border-radius: 3px;
+  background: #f7f7f3;
+  margin-block: 1.5rem;
+}
+
+pre code {
+  white-space: pre;
+}
+
+table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.figure,
+.quarto-figure,
+figure {
+  max-width: 100%;
+  margin-block: 2rem;
+}
+
+.figure img,
+.quarto-figure img,
+figure img,
+.listing-default img {
+  height: auto;
+  max-width: 100%;
+}
+
+.figure-caption,
+figcaption,
+.quarto-figure-caption {
+  color: var(--qrn-muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  margin-top: 0.55rem;
+}
+
+.math,
+.math.display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+.page-footer {
+  border-top: 1px solid var(--qrn-border);
+  background: var(--qrn-paper);
+  color: var(--qrn-muted);
+  font-size: 0.82rem;
+}
+
+#TOC {
+  border-left: 1px solid var(--qrn-border);
+  color: var(--qrn-muted);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+#TOC .nav-link {
+  border: 0;
+  color: var(--qrn-muted) !important;
+  padding-block: 0.2rem;
+}
+
+#TOC .nav-link.active {
+  color: var(--qrn-accent) !important;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  body {
+    font-size: 17px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid var(--qrn-border);
+    margin-top: 0.55rem;
+    padding: 0.55rem 0;
+  }
+
+  .nav-link {
+    border: 0;
+    padding-block: 0.55rem !important;
+  }
+
+  main.content {
+    padding-inline: 1.25rem;
+  }
+
+  .quarto-title-block {
+    padding-inline: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .navbar-brand {
+    max-width: calc(100vw - 90px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  main.content {
+    padding-top: 1.15rem;
+    padding-inline: 1rem;
+  }
+
+  .quarto-title-block {
+    padding-top: 1.5rem;
+    padding-inline: 1rem;
+  }
+
+  .quarto-title .title {
+    font-size: 2.25rem;
+  }
+
+  .listing-default .quarto-post {
+    display: block;
+    padding-block: 1.35rem;
+  }
+
+  .listing-default .thumbnail {
+    display: block;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .listing-default .listing-title {
+    font-size: 1.35rem;
+  }
+
+  #TOC {
+    border-left: 0;
+  }
+}

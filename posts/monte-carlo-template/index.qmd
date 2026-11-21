@@ -4,6 +4,7 @@ date: 2026-10-11
 draft: true
 author: "Oumaima Mamoun"
 categories: [Monte Carlo, Derivatives, Python]
+description: "Draft template for an independently verified Monte Carlo European-call pricing experiment."
 ---
 
 > **Draft only.** Replace this template with independently verified research before publication.
